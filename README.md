@@ -1,3 +1,32 @@
+# Note
+
+This repository is forked from [oreilly-japan/deep-learning-from-scratch
+](https://github.com/oreilly-japan/deep-learning-from-scratch).
+
+## Run with Docker
+
+```
+docker build -t deep-learning-from-scratch .
+docker run --rm -v $(pwd)/notebooks:/workspace/notebooks -p 8888:8888 deep-learning-from-scratch
+```
+
+Open a browser and visit <http://localhost:8888>.
+You can find a token for login in your terminal.
+
+## Run without Docker
+
+To avoid conflicts between packages, using [virtualenv](https://virtualenv.pypa.io/en/stable/) is highly recommended.
+
+```
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Open a browser and visit <http://localhost:8888>.
+You can find a token for login in your terminal.
+
+## **Original version of README.md is shown below:point_down:**
+
 # ゼロから作る Deep Learning
 
 ---

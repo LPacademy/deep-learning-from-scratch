@@ -1,3 +1,7 @@
+# jupyter notebook
+.ipynb_checkpoints
+
+# default
 .DS_Store
 *~
 *.gz
